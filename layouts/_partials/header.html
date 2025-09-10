@@ -1,0 +1,32 @@
+<header class="site-header">
+  <div class="container">
+    <!-- Titel / Logo links -->
+    <a href="{{ "/" | relLangURL }}" class="logo">{{ .Site.Title }}</a>
+
+    <!-- Menü rechts -->
+    <nav class="main-nav" aria-label="Hauptmenü">
+      <ul>
+        <li>
+          <a href="{{ "/" | relLangURL }}" {{ if .IsHome }}class="active" aria-current="page"{{ end }}>
+            {{ i18n "home" }}
+          </a>
+        </li>
+        <li>
+          <a href="{{ "about/" | relLangURL }}" {{ if eq .RelPermalink "/about/" }}class="active" aria-current="page"{{ end }}>
+            {{ i18n "about" }}
+          </a>
+        </li>
+        <li>
+          <a href="{{ "blog/" | relLangURL }}" {{ if strings.HasPrefix .RelPermalink "/blog/" }}class="active" aria-current="page"{{ end }}>
+            {{ i18n "blog" }}
+          </a>
+        </li>
+        <li>
+          <a href="{{ "contact/" | relLangURL }}" {{ if eq .RelPermalink "/contact/" }}class="active" aria-current="page"{{ end }}>
+            {{ i18n "contact" }}
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

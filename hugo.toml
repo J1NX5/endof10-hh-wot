@@ -1,0 +1,3 @@
+baseURL = 'https://example.org/'
+defaultContentLanguage = "de"
+title = 'My New Hugo Site'

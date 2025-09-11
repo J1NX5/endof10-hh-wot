@@ -3,3 +3,15 @@ other = "Über uns"
 
 [home]
 other = "Start"
+
+[dates]
+other = "Termine"
+
+[links]
+other = "Links"
+
+[impress]
+other = "Impressum"
+
+[legal]
+other = "Rechtliche hinweise"

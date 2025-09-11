@@ -7,11 +7,11 @@
   {{ $css := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 </head>
-<body>
+<body class="layout-flex">
   {{ partial "header.html" . }}
   <main class="container">
     {{ block "main" . }}{{ end }}
   </main>
-  <footer class="site-footer">© {{ now.Year }} {{ .Site.Title }}</footer>
+  {{ partial "footer.html" . }}
 </body>
 </html>

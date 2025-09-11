@@ -1,0 +1,19 @@
+<header class="site-footer">
+  <div class="container">
+    <!-- Menü rechts -->
+    <nav class="main-nav" aria-label="Hauptmenü">
+      <ul>
+        <li>
+          <a href="{{ "/" | relLangURL }}" {{ if .IsHome }}class="active" aria-current="page"{{ end }}>
+            {{ i18n "impress" }}
+          </a>
+        </li>
+        <li>
+          <a href="{{ "about/" | relLangURL }}" {{ if eq .RelPermalink "/about/" }}class="active" aria-current="page"{{ end }}>
+            {{ i18n "legal" }}
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

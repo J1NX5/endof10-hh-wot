@@ -1,5 +1,6 @@
 ---
 title: "Über uns"
 ---
-# Willkommen!
-Das ist meine einfache Hugo-Seite **ohne Theme**.
+# Wer ist EndOf10?
+
+Verlinkung zur Endof10 Webseite und kurze Erklärung

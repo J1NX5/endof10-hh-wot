@@ -97,4 +97,10 @@ nav a { margin-right: .75rem;
   border-bottom: 2px solid #ffcc00;
 }
 
-.site-footer a { color: #000 !important; }
+.site-footer a { 
+  color: #000 !important;
+}
+
+p, li {
+  text-align: left;
+}

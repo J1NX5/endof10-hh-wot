@@ -4,11 +4,11 @@ title: "Termine"
 
 ## Termine
 
-**Datum:** 11. September 2025  
+**Datum:** 11. Oktober 2025  
 **Uhrzeit:** 15:00 Uhr  
 
 **Anfahrt:**  
-Musterstraße 12  
-12345 Musterstadt  
+Zeisenweg 9
+22765 Hamburg
 
-[📍 OpenStreetMap Link](https://www.openstreetmap.org/search?query=Musterstraße%2012%2012345%20Musterstadt)
+[📍 OpenStreetMap Link](https://www.openstreetmap.org/search?query=+Zeiseweg+9%2C+22765+Hamburg%2C+Altona-Nord+&zoom=6&minlon=-2.9443359375&minlat=43.723474896114794&maxlon=31.552734375000004&maxlat=57.856443276115066#map=19/53.558179/9.944068)

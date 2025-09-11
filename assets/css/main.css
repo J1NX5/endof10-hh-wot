@@ -93,14 +93,34 @@ nav a { margin-right: .75rem;
   color: #ffcc00;
 }
 
-.main-nav a.active {
+.main-nav a[aria-current="page"]{
   border-bottom: 2px solid #ffcc00;
+}
+
+.footer-nav {
+  display: flex;
 }
 
 .site-footer a { 
   color: #000 !important;
 }
 
+.site-footer .footer-nav a {
+  color: #000;
+  text-decoration: none;
+}
+.site-footer .footer-nav a:hover {
+  text-decoration: underline;
+}
+
 p, li {
   text-align: left;
+}
+
+.site-footer .footer-nav ul {
+  display: flex;
+  gap: 1.25rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }

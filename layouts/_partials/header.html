@@ -17,12 +17,12 @@
           </a>
         </li>
         <li>
-          <a href="{{ "dates/" | relLangURL }}" {{ if strings.HasPrefix .RelPermalink "/blog/" }}class="active" aria-current="page"{{ end }}>
+          <a href="{{ "dates/" | relLangURL }}" {{ if strings.HasPrefix .RelPermalink "/dates/" }}class="active" aria-current="page"{{ end }}>
             {{ i18n "dates" }}
           </a>
         </li>
         <li>
-          <a href="{{ "links/" | relLangURL }}" {{ if eq .RelPermalink "/contact/" }}class="active" aria-current="page"{{ end }}>
+          <a href="{{ "links/" | relLangURL }}" {{ if eq .RelPermalink "/links/" }}class="active" aria-current="page"{{ end }}>
             {{ i18n "links" }}
           </a>
         </li>

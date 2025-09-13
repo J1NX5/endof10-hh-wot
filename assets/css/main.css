@@ -2,11 +2,6 @@
 * { box-sizing: border-box; }
 
 html, body { height: 100%; }
-body.layout-flex {
-  min-height: 100svh;
-  display: flex;
-  flex-direction: column;
-}
 
 main { 
   flex: 1 0 auto;
@@ -15,13 +10,20 @@ main {
   align-items: center;     
   text-align: center;
   flex-direction: column;
+  font-size: 20px;
 }
 
 body { 
   margin: 0;
-  font-family:
-  system-ui, sans-serif;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-size: 18px;
   line-height: 1.6; 
+}
+
+body.layout-flex {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
 }
 
 .container { 
@@ -70,7 +72,7 @@ nav a { margin-right: .75rem;
 
 .logo {
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 32px;
   color: #fff;
   text-decoration: none;
 }
@@ -114,7 +116,7 @@ nav a { margin-right: .75rem;
 }
 
 p, li {
-  text-align: left;
+  text-align: justify;
 }
 
 .site-footer .footer-nav ul {
